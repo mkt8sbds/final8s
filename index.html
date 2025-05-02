@@ -1324,12 +1324,6 @@
                 <td class="px-4 py-3">Chiết xuất thảo dược thiên nhiên (công thức cải tiến, chi tiết trên bao bì)</td>
               </tr>
               <tr class="border-b border-[#1a1a1a]">
-                <td class="px-4 py-3 font-semibold">Công dụng</td>
-                <td class="px-4 py-3">Giảm đau nhức xương khớp, đau lưng, tê bì chân tay, phong tê thấp, làm tan bầm tím, giảm sưng phù nề</td>
-                <td class="px-4 py-3">Giảm đau nhức xương khớp, đau lưng, tê bì chân tay, phong tê thấp, làm tan bầm tím, giảm sưng phù nề</td>
-                <td class="px-4 py-3">Giảm đau nhức xương khớp, thoái hóa khớp, tê bì, suy giãn tĩnh mạch, tràn dịch khớp gối, khô khớp gối</td>
-              </tr>
-              <tr class="border-b border-[#1a1a1a]">
                 <td class="px-4 py-3 font-semibold">Giá</td>
                 <td class="px-4 py-3">239.000đ</td>
                 <td class="px-4 py-3">399.000đ</td>
@@ -1377,6 +1371,24 @@
     </div>
     <div class="video-container" data-aos="fade-up" data-aos-delay="100">
       <iframe allowfullscreen="" loading="lazy" src="https://www.youtube.com/embed/sqOTaA_QyLc" title="Video phản hồi khách hàng" sandbox="allow-same-origin allow-scripts"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq">
+  <div class="container">
+    <div class="text-center mb-12" data-aos="fade-up">
+      <h2>NHỮNG CÂU HỎI THƯỜNG GẶT</h2>
+      <p>Các thông tin hữu ích để giải đáp thắc mắc của bạn</p>
+    </div>
+    <div class="intro-content" data-aos="fade-up">
+      <h3 class="text-lg font-semibold mt-4 mb-2 text-[var(--primary-color)]">1. Sản phẩm có an toàn không?</h3>
+      <p>Các sản phẩm của 8 Sang đều được chiết xuất từ thảo dược thiên nhiên, trải qua kiểm định nghiêm ngặt và được Bộ Y tế cấp phép, đảm bảo an toàn khi sử dụng đúng hướng dẫn.</p>
+      <h3 class="text-lg font-semibold mt-4 mb-2 text-[var(--primary-color)]">2. Thời gian giao hàng mất bao lâu?</h3>
+      <p>Thời gian giao hàng trung bình từ 1-3 ngày tùy khu vực. Vui lòng liên hệ hotline để biết thêm chi tiết.</p>
+      <h3 class="text-lg font-semibold mt-4 mb-2 text-[var(--primary-color)]">3. Có chính sách đổi trả không?</h3>
+      <p>Có, chúng tôi hỗ trợ đổi trả trong vòng 7 ngày nếu sản phẩm bị lỗi hoặc không đúng mô tả, vui lòng giữ hóa đơn và liên hệ ngay với chúng tôi.</p>
     </div>
   </div>
 </section>
@@ -1476,11 +1488,9 @@
     <img alt="Messenger" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg"/>
   </div>
   <div class="social-btn zalo btn-pulse" style="border: none; background: transparent;" onclick="openZaloChat()" aria-label="Chat qua Zalo">
-    <img alt="Zalo" src="https://seeklogo.com/images/Z/zalo-logo-4F8D3A6F34-seeklogo.com.png"/>
+    <img alt="Zalo" src="zalo-seeklogo.svg"/>
   </div>
 </div>
-<!-- Back to Top -->
-<div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Quay lại đầu trang"><i class="fas fa-arrow-up"></i></div>
 <!-- Cart -->
 <div class="cart" onclick="toggleCart()"><i class="fas fa-shopping-cart"></i> Giỏ hàng (<span id="cart-count">0</span>)</div>
 <div class="cart-panel" id="cart-panel">
@@ -1867,15 +1877,6 @@
           window.open('https://zalo.me/1900888663', '_blank');
       }
   
-      // Back to top
-      window.addEventListener('scroll', () => {
-          const backToTop = document.querySelector('.back-to-top');
-          if (window.scrollY > 300) {
-              backToTop.style.display = 'block';
-          } else {
-              backToTop.style.display = 'none';
-          }
-      });
   
       // Form submission
       document.getElementById('order-form').addEventListener('submit', async (e) => {
